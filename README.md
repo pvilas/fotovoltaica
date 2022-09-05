@@ -1,6 +1,6 @@
 # fotovoltaica
 
-Con el cuaderno es posible calcular, en media horaria, los consumos y la producción de una instalación fotovoltaica.
+Con el cuaderno Jupyter adjunto es posible calcular, en media horaria, los consumos y la producción de una instalación fotovoltaica.
 
 Los consumos se obtienen de las páginas de endesa o energiaxxi. Las producciones, de la base de datos de radiación de EU-PVGIS.
 
@@ -46,3 +46,11 @@ La fecha de inicio y final la toma del mínimo y máximo de los datos de consumo
 Una vez tenemos los datos introducidos, hacemos `run all` (Cmd/Ctrl+F9) para generar la gráfica que lucirá algo como
 
 ![Ejemplo de gráfica de cosumo y producción](https://github.com/pvilas/fotovoltaica/blob/main/prod-consumo.png)
+
+## Interpretación de la gráfica
+
+En el ejemplo (vivienda) se observa que el consumo y la producción no coinciden.
+
+La producción es nula en las horas nocturnas, mientras que el consumo es de unos 190Wh. A partir de las 6 de la mañana, el consumo se eleva a la vez que la producción. El primer momento en cuál la producción sobrepasa al consumo es a partir de las 08h. Desde este momento hasta las 17h, se produce mucho más de lo que se consume. La diferencia entre ambas gráficas es el excedente que eventualmente puede inyectarse en la red. Las horas de mayor consumo se encuentran precisamente a partir de las 18h, cuando la producción ya es nula otra vez.
+
+Una posible forma de que la instalación resultara rentable sería mediante un posible cambio de hábito de consumo, trasladando en lo posible en pico de las 21h dentro del horario de producción. Este pico puede corresponder a la preparación de la cena en la vitrocerámica, lavadoras, secadora, etc. Así mismo se observan consumos de 190Wh de 01 a 06 horas que posiblemente se deban a algún electrodoméstico que está consumiendo. Sólo en el caso de que ambas medidas fueran posibles, resultaría racional realizar la instalación.
