@@ -45,4 +45,4 @@ La fecha de inicio y final la toma del mínimo y máximo de los datos de consumo
 
 Una vez tenemos los datos introducidos, hacemos `run all` (Cmd/Ctrl+F9) para generar la gráfica que lucirá algo como
 
-![Ejemplo de gráfica de cosumo y producción]()
+![Ejemplo de gráfica de cosumo y producción](https://github.com/pvilas/fotovoltaica/blob/main/prod-consumo.png)
