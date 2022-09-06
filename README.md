@@ -1,4 +1,4 @@
-# fotovoltaica
+# Fotovoltaica
 
 Con el cuaderno Jupyter adjunto es posible calcular, en media horaria, los consumos y la producción de una instalación fotovoltaica.
 
