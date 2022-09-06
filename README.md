@@ -74,3 +74,8 @@ The power project
 Solar panel power generation analysis
 
 > Leo van der Meulen. "How much energy will you be able to generate with your solar panels? Make your own calculations to stay in control" Medium. [https://towardsdatascience.com/solar-panel-power-generation-analysis-7011cc078900](https://towardsdatascience.com/solar-panel-power-generation-analysis-7011cc078900)
+
+Shadow Calculator
+
+> KameoCode. "Sun position calculator on google maps.
+Predict size of shadows at different times of the day for google maps location." [http://shadowcalculator.eu/](http://shadowcalculator.eu/)
