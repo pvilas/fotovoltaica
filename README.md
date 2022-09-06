@@ -4,6 +4,8 @@ Con el cuaderno Jupyter adjunto es posible calcular, en media horaria, los consu
 
 Los consumos se obtienen de las páginas de endesa o energiaxxi. Las producciones, de la base de datos de radiación de EU-PVGIS.
 
+Ver el vídeo de [youtube](https://www.youtube.com/watch?v=IwvNvcPrDFc).
+
 
 ## Carga de datos de consumo de endesa y energiaxxi
 
@@ -54,3 +56,21 @@ En el ejemplo (vivienda) se observa que el consumo y la producción no coinciden
 La producción es nula en las horas nocturnas, mientras que el consumo es de unos 190Wh. A partir de las 6 de la mañana, el consumo se eleva a la vez que la producción. El primer momento en cuál la producción sobrepasa al consumo es a partir de las 08h. Desde este momento hasta las 17h, se produce mucho más de lo que se consume. La diferencia entre ambas gráficas es el excedente que eventualmente puede inyectarse en la red. Las horas de mayor consumo se encuentran precisamente a partir de las 18h, cuando la producción ya es nula otra vez.
 
 Una posible forma de que la instalación resultara rentable sería mediante un posible cambio de hábito de consumo, trasladando en lo posible en pico de las 21h dentro del horario de producción. Este pico puede corresponder a la preparación de la cena en la vitrocerámica, lavadoras, secadora, etc. Así mismo se observan consumos de 190Wh de 01 a 06 horas que posiblemente se deban a algún electrodoméstico que está consumiendo. Sólo en el caso de que ambas medidas fueran posibles, resultaría racional realizar la instalación.
+
+## Recursos
+
+PVGIS Photovoltaic Geographical Information System
+
+> European Commission. [PVGIS](https://joint-research-centre.ec.europa.eu/pvgis-photovoltaic-geographical-information-system_en)
+
+
+Librería pvlib
+> William F. Holmgren, Clifford W. Hansen, and Mark A. Mikofski. “pvlib python: a python package for modeling solar energy systems.” Journal of Open Source Software, 3(29), 884, (2018). https://doi.org/10.21105/joss.00884
+
+The power project
+
+> NASA. [https://power.larc.nasa.gov/](https://power.larc.nasa.gov/)
+
+Solar panel power generation analysis
+
+> Leo van der Meulen. "How much energy will you be able to generate with your solar panels? Make your own calculations to stay in control" Medium. [https://towardsdatascience.com/solar-panel-power-generation-analysis-7011cc078900](https://towardsdatascience.com/solar-panel-power-generation-analysis-7011cc078900)
