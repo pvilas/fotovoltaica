@@ -23,6 +23,20 @@ Los campos corresponden a
 
 ```Fecha  , Hora  , Consumo (Wh) , Precio (€/kWh) , Coste por hora (€)```
 
+
+> **Atención**: Se ha observado que el formato depende del tipo de tarifa.
+
+Si tienes la **tarifa happy**, el formato cambia a 
+
+```
+Tarifa : , Tempo Happy 50 horas 
+
+Fecha  , Hora  , Consumo (Wh) , Hora Happy 
+2022-09-06 , 00:00-01:00 , 877.0 , No 
+2022-09-06 , 01:00-02:00 , 211.0 , No 
+2022-09-06 , 02:00-03:00 , 1591.0 , No 
+```
+
 Una vez tenemos el periodo del que deseamos hacer la simulación, copiamos esos datos en el portapapeles y los copiamos en el cuanderno, en el apartado *Datos*, conservando las tres comillas del inicio y del final. No incluir las cabeceras.
 
 ## Parámetros de la instalación
