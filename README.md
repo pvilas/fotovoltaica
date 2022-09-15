@@ -47,7 +47,7 @@ Una vez tenemos cargados los datos de consumo, parametrizamos la instalación co
 - lon: Longitude of the location
 - name: Name of the panel location on the object
 - tilt: Tilt of the solar panels (0 is flat, 90 is standing straight)
-- azimuth: Direction the panels, 0 is South, negative from south to east, - positive from south to west
+- azimuth: Direction the panels, 0 is South, negative from south to east, positive from south to west
 - panels: Number of panels on the location
 - peakpower: Peakpower per panel (in kW)
 
