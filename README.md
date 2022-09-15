@@ -74,22 +74,20 @@ Una posible forma de que la instalación resultara rentable sería mediante un p
 ## Recursos
 
 PVGIS Photovoltaic Geographical Information System
-
 > European Commission. [PVGIS](https://joint-research-centre.ec.europa.eu/pvgis-photovoltaic-geographical-information-system_en)
 
+Base de datos de radiación 
+> [SARAH-2](https://joint-research-centre.ec.europa.eu/pvgis-photovoltaic-geographical-information-system/pvgis-data-download/sarah-2-solar-radiation-data_en) obtenida usando el satélite [EUMETSAT](https://wui.cmsaf.eu/safira/action/viewDoiDetails?acronym=SARAH_V002) de la UE.
 
 Librería pvlib
 > William F. Holmgren, Clifford W. Hansen, and Mark A. Mikofski. “pvlib python: a python package for modeling solar energy systems.” Journal of Open Source Software, 3(29), 884, (2018). https://doi.org/10.21105/joss.00884
 
 The power project
-
 > NASA. [https://power.larc.nasa.gov/](https://power.larc.nasa.gov/)
 
 Solar panel power generation analysis
-
 > Leo van der Meulen. "How much energy will you be able to generate with your solar panels? Make your own calculations to stay in control" Medium. [https://towardsdatascience.com/solar-panel-power-generation-analysis-7011cc078900](https://towardsdatascience.com/solar-panel-power-generation-analysis-7011cc078900)
 
 Shadow Calculator
-
 > KameoCode. "Sun position calculator on google maps.
 Predict size of shadows at different times of the day for google maps location." [http://shadowcalculator.eu/](http://shadowcalculator.eu/)
